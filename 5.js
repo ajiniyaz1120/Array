@@ -5,7 +5,7 @@
 значений элементов массива на участках, где элементы монотонно
 убывают (каждое следующее число меньше предыдущего). 
 
-Pútkil sanlı massiv berilgen. Jıyındı ortasındaǵı pariqti anıqlań 
+Pútin sanlı massiv berilgen. Jıyındı ortasındaǵı pariqti anıqlań 
 elementler monoton bolǵan orınlarda massiv elementleri ma'nislerin 
 asırıw (hár bir keyingi nomer aldınǵısınan úlkenlew) hám jıyındı  elementler monoton bolǵan orınlarda massiv elementleri ma'nislerin 
 tómenlew (hár bir keyingi nomer aldınǵısınan kemrek).
