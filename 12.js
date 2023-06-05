@@ -16,17 +16,16 @@ for (let i = 0; i < n; i++) {
     array[i][j] = Math.floor(Math.random() * 20); //матрица А[n,m]
   }
 }
-array
+
 let sum = 0;
 for (let k = 0; k < array.length; k++) {
   // sum += array[k].reduce((a,b)=>a+b)
   sum += array[k].reduce((sum, current) => sum + current, 0);
 }
-sum
-let arvg = Math.floor(sum / multiply)
-arvg
 
+let arvg = Math.floor(sum / multiply)
 let largeNumbers = [];
+
 for (let m = 0; m < array.length; m++) {
   for (let l = 0; l < array.length; l++) {
     if (array[m][l]>arvg) {
@@ -34,4 +33,5 @@ for (let m = 0; m < array.length; m++) {
     }    
   }  
 }
+
 console.log(`превосходящих среднее арифметическое значение элементов: ${largeNumbers}, среднее арифметическое: ${arvg}`);
