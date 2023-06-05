@@ -5,3 +5,12 @@
 строках. Найти количество строк, похожих на первую строку данной
 матрицы.
 */
+
+let massiv = [];
+
+for (let i = 0; i < 5; i++) {
+    massiv.push([])
+    for (let j = 0; j < 5; j++) {
+        massiv[i][j] = Math.floor(Math.random()*100)        
+    }    
+}
