@@ -11,15 +11,26 @@ for (let i = 0; i < 5; i++) {
     massiv[i][j] = Math.floor(Math.random() * 100);
   }
 }
-massiv
-// let sortElement = massiv[0]                                                                            
-let count = 0;                                                                                                                                                                                         
-for (let k = 1; k < massiv.length; k++) {
-    for (let l = 0; l < massiv.length; l++) {
-        if (massiv[0][l] === massiv[k][l]) {
-            count++     
-        }    
+massiv;
+let row = 0;
+
+for (let j = 1; j < massiv[0].length; j++) {
+  let count = 0;
+  col = 0;
+  col = massiv[j].length;
+
+  for (let k = 0; k < massiv[j].length; k++) {
+    for (let l = 0; l < massiv[0].length; l++) {
+      if (massiv[j][k] == massiv[0][l]) {
+        count++;
+      }
     }
+  }
+
+  if (count > Math.floor(col / 2)) {
+    row++;
+  }
 }
-count
-console.log(`Количество строк, похожих на первую строку данной матриц = ${count}`);
+console.log(
+  `Количество строк, похожих на первую строку данной матриц = ${row}`
+);
