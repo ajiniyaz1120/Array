@@ -12,9 +12,9 @@ let n = 4;
 m = 4;
 let array = [];
 
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < n; i++) {
   array.push([]);
-  for (let j = 0; j < 4; j++) {
+  for (let j = 0; j < m; j++) {
     array[i][j] = Math.floor(Math.random() * 0);
   }
 }
