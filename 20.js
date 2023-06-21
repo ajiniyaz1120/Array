@@ -16,10 +16,10 @@ let array = [
   [4, 8, 6, 4, 4],
 ];
 let row = 0;
-for (let i = 0; i < array.length - 1; i++) {
+for (let i = 0; i < array.length; i++) {
   let count = 0;
   let column = array[i].length
-
+  
   for (let j = 0; j < array.length; j++) {
     for (let l = 0; l < array.length; l++) {
       if (array[j][i] == array[l][array.length - 1]) {
